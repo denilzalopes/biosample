@@ -1,0 +1,30 @@
+# biosample-tracker
+
+## Présentation
+
+`biosample-tracker` est une application Spring Boot permettant de gérer et suivre des échantillons biologiques. Elle offre des fonctionnalités CRUD pour les entités d’échantillons, avec validation et gestion automatique de la date de création.
+
+## Fonctionnalités
+
+- Création, consultation, modification et suppression d’échantillons
+- Validation des champs (code unique, description, etc.)
+- Architecture évolutive (ajout d’autres entités possible)
+- Base de données relationnelle (H2, PostgreSQL, MySQL...)
+
+## Structure technique
+
+- **Backend** : Java 17+, Spring Boot, JPA/Hibernate
+- **Entité principale** : `Sample` (id, code, description, createdAt)
+- **Gestion des validations** : annotations Jakarta Validation
+
+## Prérequis
+
+- Java 17+
+- Maven 3.8+
+
+## Lancer le projet
+
+```bash
+git clone https://github.com/denilzalopes/biosample.git
+cd biosample
+mvn spring-boot:run
