@@ -9,7 +9,7 @@
 - Création, consultation, modification et suppression d’échantillons
 - Validation des champs (code unique, description, etc.)
 - Architecture évolutive (ajout d’autres entités possible)
-- Base de données relationnelle (H2, PostgreSQL, MySQL...)
+- Base de données  (MySQL et MongoDB)
 
 ## Structure technique
 
